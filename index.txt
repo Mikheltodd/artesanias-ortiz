@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Artesanías Ortiz</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/institucional/iconoAO.ico"
+    />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Logo Artesanías Ortiz -->
+      <a href="./index.html"
+        ><img
+          src="./images/institucional/LogoTransp.png"
+          alt="Logo Artesanías Ortiz"
+      /></a>
+      <br />
+      <nav>
+        <a href="./index.html">Home</a> &nbsp
+        <a href="./about.html">About Us</a> &nbsp
+        <a href="./prices.html">Prices</a>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <!-- Sección de Introducción: descripción del negocio -->
+        <div class="menu">
+          <ul>
+            <li><a href="#intro">Introducción</a></li>
+            <li><a href="#products">Productos</a></li>
+            <li><a href="#media">Galería</a></li>
+          </ul>
+        </div>
+        <section>
+          <article>
+            <h3 class="title">Somos Tradición</h3>
+            <p>
+              Con más de <em>10 años de experiencia</em> en la venta de
+              artículos artesanales, le garantizamos productos
+              <strong>originales y de la más alta calidad</strong>.
+            </p>
+          </article>
+          <aside>
+            <p>
+              Te invitamos a conocer nuestros productos en el Centro Comercial
+              Getsemaní.
+            </p>
+          </aside>
+        </section>
+      </section>
+      <section id="products">
+        <h3 class="title">Algunos de nuestros productos</h3>
+        <div class="menu">
+          <ul class="product-list">
+            <li>Mochilas: Wayúu, Arhuacas, Kankuamas</li>
+            <li>Bolsos artesanales</li>
+            <li>Sombreros Vueltiaos</li>
+            <li>Hamacas</li>
+          </ul>
+        </div>
+      </section>
+      <section id="media">
+        <h3 class="title">Galería</h3>
+        <div>
+          <h4>Imágenes</h4>
+          <img
+            src="./images/mochilas/wayuu1.jpeg"
+            alt="A Wayúu Bag"
+            height="240"
+          />
+          <img
+            src="./images/mochilas/arhuaca1.jpeg"
+            alt="An Arhuaca Bag"
+            height="240"
+          />
+          <img
+            src="./images/mochilas/wayuu2.jpeg"
+            alt="A Wayúu Bag"
+            height="240"
+          />
+        </div>
+        <div>
+          <h4>Videos</h4>
+          <video
+            src="https://www.youtube.com/watch?v=bzBH9Nm1BP8&ab_channel=Rousseau"
+            width="320"
+            height="240"
+            controls
+          >
+            Video not supported
+          </video>
+        </div>
+      </section>
+      <div class="song"></div>
+    </main>
+
+    <footer class="backgroundImageFooter">
+      <!-- Datos de Pie de Página -->
+      <p class="caption">
+        <a href="https://www.cartagena.gov.co/" target="_blank"
+          >Cartagena de Indias</a
+        >
+        -
+        <a href="http://www.centrocomercialgetsemani.com/" target="_blank"
+          >Centro Comercial Getsemaní</a
+        >
+        <br />
+        <span>Locales 1B 48 y 49<br />Cel: +57 3008885561</span>
+      </p>
+    </footer>
+  </body>
+</html>
