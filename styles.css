@@ -1,7 +1,11 @@
 html,
 body {
-  background: #ffc192;
   font-family: "Raleway", sans-serif;
+  background-color: #ffc192;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 #app {
@@ -28,4 +32,11 @@ img {
 }
 button {
   font-family: "Raleway", sans-serif;
+}
+
+header,
+footer {
+  display: flex;
+  width: auto;
+  padding: 1em;
 }
