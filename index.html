@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artesanías Ortiz</title>
+    <!-- Styles -->
     <link rel="stylesheet" href="./styles.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Raleway:wght@300;400;700;900&display=swap"
@@ -14,15 +16,78 @@
   <body>
     <div id="app">
       <header>
-        <img src="./img/logoImagen.png" alt="logo" />
+        <div class="top">
+          <div class="title">
+            <img src="./img/logos/logoImagen.png" alt="Logo Artesanías Ortiz">
+          </div>               
+          <nav>
+            <a href="#home"><span>Inicio</span></a>
+            <a href="#portfolio"><span>Productos</span></a>
+            <a href="#contact"><span>Contacto</span></a>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main>
+        
+        <article id="home">
+          <h2>Tus Artesanías Preferidas <br> en Cartagena</h2>
+          <p>
+            Comercializamos productos artesanales de la <strong>región caribe colombiana</strong>.
+          </p>
+        </article>
+      </main>
+      <section id="portfolio">
+        <h2>Algunos de Nuestros Productos</h2>
+        <p>
+          Contamos con una gran variedad de mochilas y bolsos de diferentes etnias tradicionales de Colombia <strong>(Wayúu, Arhuacos, Kankuamos)</strong> en diseños que te encantarán.
+        </p>
+        <div class="catalogue">
+          <div class="product">
+            <img
+              src="./img/sample_products/cw1.jpeg"
+              alt="A rocket sled"
+            />
+            <h4>Bolsos Wayúus</h4>
+          </div>
+          <div class="product">
+            <img
+              src="./img/sample_products/m2.jpeg"
+              alt="Rocket-powered roller skates"
+            />
+            <h4>Mochilas Arhuacas</h4>
+                    </div>
+          <div class="product">
+            <img
+              src="./img/sample_products/w1.jpeg"
+            />
+            <h4>Mochilas Wayúu</h4>
+            
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+      
+      </section>
+      <section id="vue-test">
         <h2>{{ greeting }}</h2>
         <button v-on:click="changeGreeting">Change Greeting</button>
-      </main>
-      <section>
-        <p>Page under construction</p>
-      </section>
+      </section>      
+      <footer>
+        <div class="bottom">
+          
+          <div class="logo">
+            <img src="./img/logos/LogoTransp.png" alt="Logo Artesanías Ortiz">
+          </div>
+          <div class="contact">
+            <h5>info@artesortiz.com</h5>
+            <h5>+57 3008885561</h5>
+          </div>
+          <div class="copyright">
+              <h5>&#169 by Mikheltodd, 2021</h5>
+          </div>  
+        </div>
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="./main.js"></script>
